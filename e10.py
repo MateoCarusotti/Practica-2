@@ -24,10 +24,7 @@ def crearEstructura(nombres,notas_1,notas_2):
 def crearPromedio (dicc):
     diccProm = dict(map(lambda x: (x[0], sum(x[1]) / 2), dicc.items()))
     return diccProm 
-    #diccProm = {}
-    #for elem in dicc:
-     #   diccProm[elem] = sum(dicc[elem]) / 2
-    #return diccProm
+   
 
 def promedioCurso (diccProm):
     promedio = sum(diccProm.values())
